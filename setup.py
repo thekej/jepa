@@ -22,4 +22,5 @@ if __name__ == "__main__":
         description="JEPA research code.",
         python_requires=">=3.9",
         install_requires=get_requirements(),
+        packages=['jepa']
     )
