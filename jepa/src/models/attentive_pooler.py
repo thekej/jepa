@@ -15,7 +15,7 @@ from jepa.src.models.utils.modules import (
     CrossAttention,
     CrossAttentionBlock
 )
-from src.utils.tensors import trunc_normal_
+from jepa.src.utils.tensors import trunc_normal_
 
 
 class AttentivePooler(nn.Module):
